@@ -1,0 +1,31 @@
+language: go
+
+os:
+  - linux
+  - osx
+
+go:
+  - 1.13.x
+  - 1.14.x
+  - 1.15.x
+  - master
+
+env:
+  - GO111MODULE=off
+
+install:
+ - go get ./...
+ - go get -u golang.org/x/lint/golint
+ - go get -u golang.org/x/tools/cmd/goimports
+
+script:
+ - go vet ./...
+ - diff <(goimports -d .) <(printf "")
+ - diff <(golint ./...) <(printf "")
+ - go test -v -cpu=2 ./...
+ - go test -v -cpu=1,2,4 -short -race ./...
+
+matrix:
+  allow_failures:
+    - go: 'master'
+  fast_finish: true

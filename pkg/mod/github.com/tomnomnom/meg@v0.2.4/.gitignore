@@ -1,0 +1,11 @@
+meg
+prefixes
+hosts
+suffixes
+paths
+domains
+out
+*.swp
+*.tgz
+*.zip
+*.exe
