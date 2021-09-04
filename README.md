@@ -33,4 +33,4 @@ rune        alias for int32 (represents a Unicode code point)
 
 # Learning from Docs on Website http://www.golangbootcamp.com/book
 
-## currently on http://www.golangbootcamp.com/book/control_flow { 5.1 if statesment }
+## currently on http://www.golangbootcamp.com/book/methods { 6 Methods }
