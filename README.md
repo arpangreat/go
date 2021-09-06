@@ -33,4 +33,4 @@ rune        alias for int32 (represents a Unicode code point)
 
 # Learning from Docs on Website http://www.golangbootcamp.com/book
 
-## currently on http://www.golangbootcamp.com/book/concurrency { 8 concurrency }
+## currently on http://www.golangbootcamp.com/book/concurrency { 8.2 channels }
