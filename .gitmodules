@@ -1,3 +1,6 @@
 [submodule "project-management"]
 	path = project-management
 	url = https://github.com/bashbunni/project-management
+[submodule "src/github.com/bashbunni/project-management"]
+	path = src/github.com/bashbunni/project-management
+	url = https://github.com/bashbunni/project-management
