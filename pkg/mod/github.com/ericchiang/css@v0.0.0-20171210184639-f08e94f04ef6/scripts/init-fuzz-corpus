@@ -1,3 +1,0 @@
-#!/bin/bash -e
-
-awk '{ print $0 > "workdir/corpus/example-"NR".css"}' < testdata/fuzz-samples.css

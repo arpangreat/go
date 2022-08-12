@@ -1,3 +1,0 @@
-package httptest
-
-const Version = ""

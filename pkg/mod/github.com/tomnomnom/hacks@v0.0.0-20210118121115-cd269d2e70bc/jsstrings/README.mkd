@@ -1,3 +1,0 @@
-# JSStrings
-
-Pulls all of the string literals out of a JavaScript file... In theory at least.

@@ -1,4 +1,0 @@
-# get-title
-
-Fetch and get the title of an HTML page
-

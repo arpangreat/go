@@ -1,4 +1,0 @@
-.*\.example\.com$
-^example\.com$
-.*\.example\.net$
-!.*outofscope\.example\.net$
