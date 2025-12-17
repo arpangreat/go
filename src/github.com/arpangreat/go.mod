@@ -1,13 +1,22 @@
 module github.com/arpangreat
 
-go 1.16
+go 1.25.0
 
 require (
-	github.com/andybalholm/brotli v1.0.3 // indirect
-	github.com/gofiber/fiber v1.14.6 // indirect
-	github.com/gofiber/fiber/v2 v2.13.0 // indirect
-	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/klauspost/compress v1.13.1 // indirect
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22 // indirect
-	golang.org/x/tour v0.1.0 // indirect
+	github.com/gofiber/fiber/v2 v2.52.10
+	golang.org/x/tour v0.1.0
+)
+
+require (
+	github.com/andybalholm/brotli v1.2.0 // indirect
+	github.com/clipperhouse/stringish v0.1.1 // indirect
+	github.com/clipperhouse/uax29/v2 v2.3.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
+	github.com/klauspost/compress v1.18.2 // indirect
+	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-runewidth v0.0.19 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v1.68.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
 )

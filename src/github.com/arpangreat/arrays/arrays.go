@@ -15,8 +15,8 @@ func main() {
 
 	// Multi-dimensional Arrays
 	var m [2][3]string
-	for i := 0; i < 2; i++ {
-		for j := 0; j < 3; j++ {
+	for i := range 2 {
+		for j := range 3 {
 			m[i][j] = fmt.Sprintf("row %d - column %d\n", i+1, j+1)
 		}
 	}
